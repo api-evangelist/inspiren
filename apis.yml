@@ -1,8 +1,16 @@
 aid: inspiren
 name: Inspiren
-description: 'Inspiren is a company surfaced as a portfolio company of insight-partners, scale-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Inspiren is a healthcare technology company providing an AI-powered ecosystem
+  for senior living communities that combines hardware and software to improve resident
+  safety, care planning, and staff efficiency. Its platform pairs devices such as the
+  AUGi sensor, Sense, Help Button, Resident Pendant, and Staff Beacon with the Inspiren
+  HQ software platform and mobile app to deliver emergency call, real-time fall prevention
+  and safety monitoring, data-driven care insights, and staff workflow coordination.
+  Inspiren reports outcomes including reductions in falls, faster alert response times,
+  and improved occupancy for the communities it serves. This profile was surfaced as a
+  portfolio company of Insight Partners and Scale Venture Partners and added to the API
+  Evangelist network; Inspiren does not publish a public developer program, API documentation,
+  or machine-readable API specifications at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/inspiren/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +19,32 @@ x-backed-by:
 - scale-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/690e3d56d60afc04a3e9e2a3/691ccc1f8b3061e034835164_inspiren-og-image.jpg
 tags:
 - Company
 - Healthcare
+- Senior Living
+- Care
+- Resident Safety
+- Fall Prevention
+- Remote Monitoring
+- Artificial Intelligence
+- IoT
+- Health Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.inspiren.com/
+- type: About
+  url: https://www.inspiren.com/about-us
+- type: Blog
+  url: https://www.inspiren.com/news
+- type: TermsOfService
+  url: https://www.inspiren.com/terms-privacy
+- type: PrivacyPolicy
+  url: https://www.inspiren.com/terms-privacy
+- type: DomainSecurity
+  url: security/inspiren-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
